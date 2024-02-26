@@ -12,5 +12,5 @@ with all dependencies and tools built-in, to format C++ code.
 ## Usage
 
 ```bash
-docker run --rm --privileged=true --volume ${PWD}:/otel otel/cpp_format_tools
+docker run --rm --user "$(id -u):$(id -g)" --volume ${PWD}:/otel otel/cpp_format_tools
 ```
