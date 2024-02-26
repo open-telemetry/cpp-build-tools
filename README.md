@@ -14,6 +14,6 @@ _Find more about the approver role in [community repository](https://github.com/
 
 ### Maintainers
 
-- OpenTelemetry C++ Maintainers ([@open-telemetry/cpp-maintainers](https://github.com/orgs/open-telemetry/teams/cpp-approvers))
+- OpenTelemetry C++ Maintainers ([@open-telemetry/cpp-maintainers](https://github.com/orgs/open-telemetry/teams/cpp-maintainers))
 
 _Find more about the maintainer role in [community repository](https://github.com/open-telemetry/community/blob/master/community-membership.md#maintainer)._
