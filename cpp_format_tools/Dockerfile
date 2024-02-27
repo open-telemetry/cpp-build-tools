@@ -7,7 +7,8 @@ LABEL maintainer="The OpenTelemetry Authors"
 RUN apk update
 
 ARG CLANG_VERSION
-RUN apk add --no-cache clang=${CLANG_VERSION} python3 py3-pip git curl
+RUN apk add --no-cache clang=${CLANG_VERSION} \
+    clang17-extra-tools=${CLANG_VERSION} python3 py3-pip git curl
 
 ARG CMAKE_FORMAT_VERSION
 RUN pip3 install --break-system-packages cmake_format==${CMAKE_FORMAT_VERSION}
