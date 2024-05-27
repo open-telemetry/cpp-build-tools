@@ -21,7 +21,7 @@ fi
 # No trailing spaces.
 "${SED[@]}" 's/ \+$//' $($FIND -type f -print)
 
-# If not overridden, try to use clang-format-10 or clang-format.
+# If not overridden, try to use clang-format-18 or clang-format.
 if [[ -z "$CLANG_FORMAT" ]]; then
   CLANG_FORMAT=clang-format
   if which clang-format-18 >/dev/null; then
