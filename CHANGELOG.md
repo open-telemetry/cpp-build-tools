@@ -15,7 +15,8 @@ Increment the:
 
 ## [Unreleased]
 
-* TITLE
+* [FORMAT] Do not format .diff and .patch
+  [#10](https://github.com/open-telemetry/cpp-build-tools/pull/10)
 
 ## [0.0] 2024-02-16
 
