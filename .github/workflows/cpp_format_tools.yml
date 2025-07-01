@@ -9,6 +9,9 @@ on:
       - .github/workflows/cpp_format_tools.yml
       - cpp_format_tools/*
 
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
