@@ -2,7 +2,7 @@ ARG BUILDIFIER_VERSION=3.5.0
 ARG CLANG_VERSION=18
 ARG CMAKE_FORMAT_VERSION=0.6.13
 
-FROM ubuntu:24.04
+FROM ubuntu:26.04
 LABEL maintainer="The OpenTelemetry Authors"
 RUN apt update
 
